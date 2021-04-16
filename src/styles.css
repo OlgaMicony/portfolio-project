@@ -1,17 +1,57 @@
+:root{
+  --btn-background-color:antiquewhite;
+  --btn-color:  chocolate;
+  --secondary-color:  antiquewhite;
+  --heading-font-family: 'Antonio', sans-serif;
+  --default-font-family:'Poppins', sans-serif;
+}
+
 body{
-  background-color: antiquewhite;
-  
+  font-family: var(--default-font-family);
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--heading-font-family);
+  color: chocolate;
+  font-weight: bold; 
 }
 
 h1{
-  font-family: 'Noto Sans KR', sans-serif;
-  color: chocolate;
-  text-align: center;
-  margin-top: 50px;
-  font-weight: 900;
+  font-size: 96px;
 }
 
-h3{
-  font-family: 'Poppins', sans-serif;
+.hero{
+  background-color: var(--secondary-color);  
   text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p{
+  font-family: 'Antonio', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2{
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
+  color: black;
+}
+
+.hero .btn{
+  background-color: var(--btn-background-color);
+  border-radius: 4px;
+  color:var(--btn-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-color: var(--btn-color);
+}
+
+.hero .btn:hover{
+  background-color: chocolate;
+  color: antiquewhite;
 }
