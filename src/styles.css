@@ -121,6 +121,20 @@ font-family: var(--default-font-family);
   padding: 120px 60px;
 }
 
+.navbar-bg-color{
+  background-color: var(--btn-color);
+    
+  text-align: center;
+}
+
+.navbar-light .navbar-brand{
+  color:var(--secondary-color);
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: var(--secondary-color);
+}
+
 @media (max-width:900px) {
   h1{
     font-size: 44px;
