@@ -135,6 +135,13 @@ font-family: var(--default-font-family);
   color: var(--secondary-color);
 }
 
+.fixed-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;  
+}
+
 @media (max-width:900px) {
   h1{
     font-size: 44px;
