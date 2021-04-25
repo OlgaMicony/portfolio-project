@@ -31,6 +31,8 @@ p{
   line-height: 30px;
 }
 
+
+
 .hero{
   background-color: var(--secondary-color);  
   text-align: center;
@@ -87,7 +89,30 @@ font-family: var(--default-font-family);
   margin: 10px;
 }
 
-.hero .btn{
+.project-link{
+  text-decoration: none;
+  color: var(--btn-color);
+}
+
+.project-link:hover{  
+  color: black;
+}
+
+.about h5{
+  color: black;
+  font-family: var(--default-font-family);
+}
+
+.about-link {
+  text-decoration: none;
+  color: var(--btn-color);
+}
+
+.about-link:hover{  
+  color: black;
+}
+
+.btn-branding{
   background-color: var(--btn-color);
   border-radius: 4px;
   color:var(--btn-background-color);
@@ -97,7 +122,7 @@ font-family: var(--default-font-family);
   border-color: var(--btn-color);
 }
 
-.hero .btn:hover{
+.btn-branding:hover{
   background-color: var(--btn-background-color);
   color: var(--btn-color);
 }
@@ -116,6 +141,8 @@ font-family: var(--default-font-family);
   background-color:var(--btn-color);
   color: var(--btn-background-color);
 }
+
+
 
 .project-description{
   padding: 120px 60px;
@@ -161,8 +188,27 @@ img{
  
 }
 
+.shecodes-link{
+  text-decoration: none;
+  color: var(--btn-color);
+}
+
+.shecodes-link:hover{  
+  color: var(--btn-color);
+  font-weight: 700px;
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+}
+
 .foto{  
   border-radius: 20px;
+  width: 400px;
+  height: 500px;
+}
+
+.img-certificate{
+  display: block;
+  width: 400px;
 }
 
 li{
@@ -209,6 +255,8 @@ footer .open-sourced-link:hover{
   color: var(--secondary-color);
 }
 
+
+
 @media (max-width:900px) {
   .hero{
     padding: 90px 20px;    
@@ -245,5 +293,7 @@ footer .open-sourced-link:hover{
   img .icons{
     max-width: 20px;
   }
+
+  
 }
   
