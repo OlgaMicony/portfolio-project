@@ -209,7 +209,7 @@ img{
 .img-certificate{
   display: flex;  
   justify-content: space-evenly;
-  width: 400px;
+  width: 300px;
 }
 
 li{
